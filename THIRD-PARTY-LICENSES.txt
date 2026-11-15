@@ -1,0 +1,50 @@
+This application includes the following third-party software. It is free software,
+distributed under its own licenses, and it is not covered by the terms of the application
+itself.
+
+Compiled into the program:
+
+Rust crates (Tauri and the crates it uses)
+  Licenses: licenses/rust-crates.txt (each crate, its license and where its source code is)
+
+Microsoft WebView2 loader (inside webview2-com-sys 0.38.2)
+  Version: WebView2 SDK 1.0.3650.58
+  License: BSD 3-Clause License (licenses/BSD-3-Clause-Microsoft-WebView2.txt)
+  From: https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3650.58
+
+Libraries inside the application:
+
+Alpine.js
+  Version: 3.15.11
+  License: MIT License (licenses/MIT-Alpine.js.txt)
+  Source code: https://github.com/alpinejs/alpine
+
+@vue/reactivity and @vue/shared (inside Alpine.js)
+  Version: 3.1.5
+  License: MIT License (licenses/MIT-vue.txt)
+  Source code: https://github.com/vuejs/core
+
+Chart.js
+  Version: 4.5.1
+  License: MIT License (licenses/MIT-Chart.js.txt)
+  Source code: https://github.com/chartjs/Chart.js
+
+@kurkle/color (inside Chart.js)
+  Version: 0.3.4
+  License: MIT License (licenses/MIT-kurkle-color.txt)
+  Source code: https://github.com/kurkle/color
+
+Tauri JavaScript API (@tauri-apps/api)
+  Version: 2.5.0
+  License: Apache License 2.0 or MIT License (licenses/Apache-2.0.txt, licenses/MIT-tauri.txt)
+  Source code: https://github.com/tauri-apps/tauri
+
+Tailwind CSS (Play CDN build)
+  Version: 3.4.17
+  License: MIT License (licenses/MIT-tailwindcss.txt)
+  Source code: https://github.com/tailwindlabs/tailwindcss
+
+PostCSS (inside the Tailwind CSS build)
+  Version: 8
+  License: MIT License (licenses/MIT-postcss.txt)
+  Source code: https://github.com/postcss/postcss
